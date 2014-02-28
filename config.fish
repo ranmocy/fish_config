@@ -1,6 +1,6 @@
 #!/usr/local/fish
 
-set -U EDITOR "emacsclient -t -a 'vim'"
+set -U EDITOR "s"
 
 # Path
 test -f /usr/libexec/path_helper; and eval (/usr/libexec/path_helper -c)
