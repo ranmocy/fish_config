@@ -10,6 +10,8 @@ function listkill
         set sig $argv[2]
     end
 
-    echo "kill $argv[1] with signal $sig."
+    echo "Kill $argv[1] with signal $sig."
     listtask $argv[1] | awk '{print $2}' | xargs kill -$sig
+    echo "Now remains:"
+    listtask $argv[1]
 end
