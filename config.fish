@@ -34,6 +34,9 @@ abbr --add ~code ~/Code
 abbr --add ~pnm ~/Code/pnm
 abbr --add ~meson ~/Code/mesonfi
 
+# Rust
+set -gx RUST_LOG info
 
+# Editor
 set -U EDITOR "code"
 set -g CDPATH . ~/Code
