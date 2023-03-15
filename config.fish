@@ -4,11 +4,11 @@
 if [ -x /opt/homebrew/bin/brew ]
     eval "$(/opt/homebrew/bin/brew shellenv)"
 end
+set -gx PATH ~/bin $PATH
 set -gx PATH ~/.cargo/bin $PATH
 set -gx PATH ~/.foundry/bin $PATH
 set -gx PATH ~/.yarn/bin $PATH
 set -gx PATH ~/.pnm/bin $PATH
-set -gx PATH ~/bin $PATH
 
 # System Alias
 alias l="ls -lah"
@@ -44,3 +44,5 @@ set -g CDPATH . ~/Code
 if [ -f $HOME/.config/fish/sensitive.fish ]
   source $HOME/.config/fish/sensitive.fish
 end
+
+test -e {$HOME}/.iterm2_shell_integration.fish ; and source {$HOME}/.iterm2_shell_integration.fish
