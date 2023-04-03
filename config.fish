@@ -1,15 +1,5 @@
 #!/opt/homebrew/bin/fish
 
-# PATH
-if [ -x /opt/homebrew/bin/brew ]
-    eval "$(/opt/homebrew/bin/brew shellenv)"
-end
-set -gx PATH ~/bin $PATH
-set -gx PATH ~/.cargo/bin $PATH
-set -gx PATH ~/.foundry/bin $PATH
-set -gx PATH ~/.yarn/bin $PATH
-set -gx PATH ~/.pnm/bin $PATH
-
 # System Alias
 alias l="ls -lah"
 alias la="ls -ah"
