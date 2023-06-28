@@ -8,3 +8,4 @@ set -gx PATH ~/.cargo/bin $PATH
 set -gx PATH ~/.foundry/bin $PATH
 set -gx PATH ~/.yarn/bin $PATH
 set -gx PATH ~/.narya/bin $PATH
+set -gx PATH /Applications/WebStorm.app/Contents/MacOS $PATH

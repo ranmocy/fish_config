@@ -30,6 +30,7 @@ set -gx RUST_LOG info
 # Editor
 set -U EDITOR "code"
 set -g CDPATH . ~/Code
+set -gx REACT_EDITOR webstorm
 
 if [ -f $HOME/.config/fish/sensitive.fish ]
   source $HOME/.config/fish/sensitive.fish
