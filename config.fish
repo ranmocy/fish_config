@@ -20,16 +20,16 @@ alias sha256="shasum -a 256"
 # alias apksignature="~/Android/Sdk/build-tools/30.0.1/apksigner verify --print-certs"
 
 # Path Alias
-abbr --add ~code ~/Code
-abbr --add ~pnm ~/Code/pnm
-abbr --add ~meson ~/Code/mesonfi
+#abbr --add ~code ~/Code
+#abbr --add ~pnm ~/Code/pnm
+#abbr --add ~meson ~/Code/mesonfi
 
 # Rust
 set -gx RUST_LOG info
 
 # Editor
 set -U EDITOR "code"
-set -g CDPATH . ~/Code
+#set -g CDPATH . ~/Code
 set -gx REACT_EDITOR webstorm
 
 if [ -f $HOME/.config/fish/sensitive.fish ]
@@ -37,3 +37,4 @@ if [ -f $HOME/.config/fish/sensitive.fish ]
 end
 
 test -e {$HOME}/.iterm2_shell_integration.fish ; and source {$HOME}/.iterm2_shell_integration.fish
+
