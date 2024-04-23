@@ -34,8 +34,13 @@ function fish_prompt
     set -g last_status $status # save for next and right prompt
 
     # first line
-    set -l prompt_node (node --version | cut -d' ' -f1,2)
-    set -l upper_left (set_color -o blue)"┌─("(set_color yellow)(prompt_pwd)(set_color -o blue)")"(set_color normal)(set_color yellow)"($prompt_node)"(set_color -o blue)
+    if type -q node; then
+        set -l prompt_node (node --version | cut -d' ' -f1,2)
+        set -l prompt_node "($prompt_node)"
+    else
+        set -l promot_node ""
+    end
+    set -l upper_left (set_color -o blue)"┌─("(set_color yellow)(prompt_pwd)(set_color -o blue)")"(set_color normal)(set_color yellow)"$prompt_node"(set_color -o blue)
     set -l upper_left_length (math (string_length (prompt_pwd))+(string_length $prompt_node)+3)
     set -l upper_right (set_color -o blue)"("(set_color normal)(set_color blue)(whoami)(set_color -o black)"@"(set_color -o green)(hostname|cut -d . -f 1)(set_color -o blue)")─┐\n"
     set -l upper_right_length (math (string_length (whoami))+(string_length (hostname|cut -d . -f 1))+4)

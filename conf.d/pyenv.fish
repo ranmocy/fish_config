@@ -1,3 +1,3 @@
-if status is-interactive && type pyenv > /dev/null
+if status is-interactive && type -q pyenv
   pyenv init - | source
 end
