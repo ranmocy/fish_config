@@ -34,7 +34,7 @@ function fish_prompt
     set -g last_status $status # save for next and right prompt
 
     # first line
-    if type -q node; then
+    if type -q node
         set -l prompt_node (node --version | cut -d' ' -f1,2)
         set -l prompt_node "($prompt_node)"
     else
