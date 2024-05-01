@@ -32,8 +32,8 @@ set -U EDITOR "code"
 #set -g CDPATH . ~/Code
 set -gx REACT_EDITOR webstorm
 
-if [ -f $HOME/.iterm2_shell_integration.fish]; source $HOME/.iterm2_shell_integration.fish; end
+if [ -f $HOME/.iterm2_shell_integration.fish ]; source $HOME/.iterm2_shell_integration.fish; end
 
 if [ -f $HOME/.google-cloud-sdk/path.fish.inc ]; source $HOME/.google-cloud-sdk/path.fish.inc; end
 
-if [ -f $HOME/.config/fish/local.fish ]; source $HOME/.config/fish/local.fish; end
+if [ -f $HOME/bin_corp/config.fish ]; source $HOME/bin_corp/config.fish; end
