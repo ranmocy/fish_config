@@ -36,4 +36,4 @@ if [ -f $HOME/.iterm2_shell_integration.fish ]; source $HOME/.iterm2_shell_integ
 
 if [ -f $HOME/.google-cloud-sdk/path.fish.inc ]; source $HOME/.google-cloud-sdk/path.fish.inc; end
 
-if [ -f $HOME/bin_corp/config.fish ]; source $HOME/bin_corp/config.fish; end
+if [ -f $HOME/work/bin/config.fish ]; source $HOME/work/bin/config.fish; end
