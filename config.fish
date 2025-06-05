@@ -21,6 +21,6 @@ alias sha256="shasum -a 256"
 
 if [ -f $HOME/.iterm2_shell_integration.fish ]; source $HOME/.iterm2_shell_integration.fish; end
 
-if [ -f $HOME/.google-cloud-sdk/path.fish.inc ]; source $HOME/.google-cloud-sdk/path.fish.inc; end
+# if [ -f $HOME/.google-cloud-sdk/path.fish.inc ]; source $HOME/.google-cloud-sdk/path.fish.inc; end
 
 if [ -f $HOME/work/bin/config.fish ]; source $HOME/work/bin/config.fish; end
