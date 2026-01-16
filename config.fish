@@ -9,6 +9,8 @@ alias ll="ls -lah"
 #alias rm='rm -i'
 
 # Custom alias
+alias cc='NPM_CONFIG_REGISTRY="https://registry.npmjs.org" npx @anthropic-ai/claude-code --setting-sources "project,local"'
+alias lt='ps aux | grep'
 alias b='brew'
 alias bup="brew update && brew outdated && brew upgrade && brew cleanup"
 alias up='configs_upgrade && bup'

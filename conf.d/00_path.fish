@@ -16,6 +16,7 @@ if not contains "/opt/homebrew/share/info" $INFOPATH; set --global --export INFO
 set -gx PATH \
     $HOME/bin \
     $HOME/.oh-my-configs/bin \
+    $HOME/go/bin \
     $HOME/.local/bin \
     $HOME/.cargo/bin \
     $HOME/.yarn/bin \
