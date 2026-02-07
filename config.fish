@@ -4,7 +4,7 @@
 alias ls="eza"
 alias cat="bat"
 alias find="fd"
-alias grep="rg"
+# alias grep="rg"
 alias z="zoxide"
 alias diff="delta"
 
