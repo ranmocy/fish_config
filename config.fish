@@ -1,5 +1,13 @@
 #!/opt/homebrew/bin/fish
 
+# Replacement
+alias ls="eza"
+alias cat="bat"
+alias find="fd"
+alias grep="rg"
+alias z="zoxide"
+alias diff="delta"
+
 # System Alias
 alias l="ls -lah"
 alias la="ls -ah"
