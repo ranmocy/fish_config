@@ -5,7 +5,6 @@ alias ls="eza"
 alias cat="bat"
 alias find="fd"
 # alias grep="rg"
-alias z="zoxide"
 alias diff="delta"
 
 # System Alias
@@ -18,7 +17,9 @@ alias ll="ls -lah"
 
 # Custom alias
 alias cc='NPM_CONFIG_REGISTRY="https://registry.npmjs.org" npx @anthropic-ai/claude-code --setting-sources "project,local"'
-alias lt='ps aux | grep'
+alias lp='listport'
+alias lt='listtask'
+alias lk='listkill'
 alias b='brew'
 alias bup="brew update && brew outdated && brew upgrade && brew cleanup"
 alias up='configs_upgrade && bup'
