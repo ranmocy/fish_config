@@ -26,4 +26,4 @@ set -gx PATH \
 # Path Alias
 abbr --add ~code ~/Code
 
-if [ -f $HOME/work/bin/config_path.fish ]; source $HOME/work/bin/config_path.fish; end
+if [ -f $HOME/work/.configs/config_path.fish ]; source $HOME/work/.configs/config_path.fish; end

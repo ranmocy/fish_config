@@ -33,4 +33,4 @@ alias httpserver='python3 -m http.server'
 
 if [ -f $HOME/.iterm2_shell_integration.fish ]; source $HOME/.iterm2_shell_integration.fish; end
 
-if [ -f $HOME/work/bin/config.fish ]; source $HOME/work/bin/config.fish; end
+if [ -f $HOME/work/.configs/config.fish ]; source $HOME/work/.configs/config.fish; end
