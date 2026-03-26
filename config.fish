@@ -31,6 +31,10 @@ alias sha256="shasum -a 256"
 # alias apksignature="~/Android/Sdk/build-tools/30.0.1/apksigner verify --print-certs"
 alias httpserver='python3 -m http.server'
 
+# Bun
+set --export BUN_INSTALL "$HOME/.bun"
+set --export PATH $BUN_INSTALL/bin $PATH
+
 if [ -f $HOME/.iterm2_shell_integration.fish ]; source $HOME/.iterm2_shell_integration.fish; end
 
 if [ -f $HOME/work/.configs/config.fish ]; source $HOME/work/.configs/config.fish; end
