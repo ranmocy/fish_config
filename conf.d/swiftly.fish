@@ -1,3 +1,2 @@
-
 # Added by swiftly
-source "/home/mocy_sheng/.local/share/swiftly/env.fish"
+if [ -f "$HOME/.local/share/swiftly/env.fish" ]; source "$HOME/.local/share/swiftly/env.fish"; end
