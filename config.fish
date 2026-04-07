@@ -3,7 +3,7 @@
 # Replacement
 alias ls="eza"
 alias cat="bat"
-alias find="fd"
+#alias find="fd"
 # alias grep="rg"
 alias diff="delta"
 
