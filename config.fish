@@ -16,6 +16,7 @@ alias ll="ls -lah"
 #alias rm='rm -i'
 
 # Custom alias
+alias za='zellij attach'
 alias cc='NPM_CONFIG_REGISTRY="https://registry.npmjs.org" npx @anthropic-ai/claude-code --setting-sources "project,local"'
 alias lp='listport'
 alias lt='listtask'
